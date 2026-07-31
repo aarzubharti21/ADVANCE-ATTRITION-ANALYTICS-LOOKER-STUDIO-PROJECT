@@ -112,8 +112,11 @@ The dashboard provides a high-level overview of the organization's workforce thr
 # The dashboard reports:
 
 **Total Employees**: 1,470
+
 **Total Attrition Count**: 237
+
 **Average Monthly Income**: ₹6,503
+
 **Average Employee Age**: 36.92 years
 
 It also includes employee distribution by department, job role, gender, and business travel, along with the overall attrition split.
