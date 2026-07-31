@@ -15,23 +15,23 @@ The dashboard transforms raw HR data into interactive business intelligence, ena
 
 Organizations often possess large volumes of employee data but struggle to convert it into actionable insights. HR teams need a centralized reporting solution that allows them to answer critical workforce questions such as:
 
-What is the organization's overall attrition rate?
+-What is the organization's overall attrition rate?
 
-Which departments experience the highest employee turnover?
+-Which departments experience the highest employee turnover?
 
-Which job roles are most affected by attrition?
+-Which job roles are most affected by attrition?
 
-Does business travel influence employee resignations?
+-Does business travel influence employee resignations?
 
-Which age groups are more likely to leave?
+-Which age groups are more likely to leave?
 
-Does employee income impact retention?
+-Does employee income impact retention?
 
-Is job satisfaction associated with higher attrition?
+-Is job satisfaction associated with higher attrition?
 
-Are there differences in attrition between male and female employees?
+-Are there differences in attrition between male and female employees?
 
-Without an analytical dashboard, identifying these patterns becomes difficult and time-consuming.
+-Without an analytical dashboard, identifying these patterns becomes difficult and time-consuming.
 
 This project addresses these challenges by providing an interactive HR analytics dashboard for strategic workforce planning.
 
@@ -39,21 +39,21 @@ This project addresses these challenges by providing an interactive HR analytics
 
 The primary objectives of this project are:
 
-Analyze overall workforce composition.
+-Analyze overall workforce composition.
 
-Monitor employee attrition across departments.
+-Monitor employee attrition across departments.
 
-Evaluate workforce demographics.
+-Evaluate workforce demographics.
 
-Identify high-risk employee segments.
+-Identify high-risk employee segments.
 
-Compare attrition by job role.
+-Compare attrition by job role.
 
-Study the relationship between job satisfaction and employee turnover.
+-Study the relationship between job satisfaction and employee turnover.
 
-Analyze the impact of income on employee retention.
+-Analyze the impact of income on employee retention.
 
-Examine business travel patterns.
+-Examine business travel patterns.
 
 Build an executive-level HR dashboard using Looker Studio.
 
@@ -69,39 +69,39 @@ The data enables organizations to investigate multiple factors influencing emplo
 
 The dataset contains information related to:
 
-Employee Demographics
+-Employee Demographics
 
-Department
+-Department
 
-Job Role
+-Job Role
 
-Gender
+-Gender
 
-Age
+-Age
 
-Monthly Income
+-Monthly Income
 
-Education
+-Education
 
-Job Satisfaction
+-Job Satisfaction
 
-Environment Satisfaction
+-Environment Satisfaction
 
-Business Travel
+-Business Travel
 
-Marital Status
+-Marital Status
 
-Overtime
+-Overtime
 
-Years at Company
+-Years at Company
 
-Years Since Last Promotion
+-Years Since Last Promotion
 
-Years with Current Manager
+-Years with Current Manager
 
-Work-Life Balance
+-Work-Life Balance
 
-Attrition Status
+-Attrition Status
 
 These variables provide a comprehensive view of employee characteristics and organizational behavior.
 
@@ -109,7 +109,7 @@ These variables provide a comprehensive view of employee characteristics and org
 
 The dashboard provides a high-level overview of the organization's workforce through key performance indicators and operational summaries.
 
-# The dashboard reports:
+## The dashboard reports:
 
 **Total Employees**: 1,470
 
@@ -166,13 +166,13 @@ Users can compare workforce metrics across multiple HR dimensions without writin
 # Dashboard Visualizations
 
 ## Employee Attrition Distribution
-A donut chart compares employees who stayed with those who left the organization.
+-A donut chart compares employees who stayed with those who left the organization.
 
-The dashboard shows approximately 83.9% retained employees and 16.1% attrition.
+-The dashboard shows approximately 83.9% retained employees and 16.1% attrition.
 
-Department-wise Employee Distribution
+-Department-wise Employee Distribution
 
-A column chart compares employee counts across departments.
+-A column chart compares employee counts across departments.
 
 The dashboard indicates that Research & Development has the largest workforce, followed by Sales and Human Resources.
 
@@ -199,21 +199,21 @@ This analysis helps determine whether travel frequency influences employee turno
 Prior to building the dashboard, the dataset was prepared using Microsoft Excel.
 
 The preparation process included:
-Data cleaning
+-Data cleaning
 
-Duplicate validation
+-Duplicate validation
 
-Missing value verification
+-Missing value verification
 
-Standardization of categorical fields
+-Standardization of categorical fields
 
-Data formatting
+-Data formatting
 
-Creation of calculated fields
+-Creation of calculated fields
 
-Aggregation for dashboard metrics
+-Aggregation for dashboard metrics
 
-Validation of employee records
+-Validation of employee records
 
 The cleaned dataset was then connected to Looker Studio.
 
@@ -222,29 +222,28 @@ The cleaned dataset was then connected to Looker Studio.
 This project demonstrates the practical use of several Looker Studio features, including:
 Interactive Scorecards
 
-Bar Charts
+-Bar Charts
 
-Column Charts
+-Column Charts
 
-Pie Charts
+-Pie Charts
 
-Donut Charts
+-Donut Charts
 
-Pivot Tables
+-Pivot Tables
 
-Drop-down Filters
+-Drop-down Filters
 
-Calculated Fields
+-Calculated Fields
 
-Cross Filtering
+-Cross Filtering
 
-Dynamic Dashboard Controls
+-Dynamic Dashboard Controls
 
-Responsive Dashboard Layout
+-Responsive Dashboard Layout
 
-Business Insights
-
-## The dashboard provides several actionable HR insights.
+# Business Insights
+The dashboard provides several actionable HR insights.
 
 Overall employee attrition remains relatively moderate but requires continuous monitoring.
 
