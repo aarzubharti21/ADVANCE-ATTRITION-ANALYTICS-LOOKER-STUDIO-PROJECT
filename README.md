@@ -106,7 +106,7 @@ These variables provide a comprehensive view of employee characteristics and org
 
 The dashboard provides a high-level overview of the organization's workforce through key performance indicators and operational summaries.
 
-## The dashboard reports:
+The dashboard reports:
 
 **Total Employees**: 1,470
 
@@ -138,7 +138,8 @@ These KPI values are shown on the dashboard overview.
 # Dashboard Features
 The dashboard provides several interactive reporting capabilities.
 
-## Interactive Filters
+1.**Interactive Filters**
+
 Users can dynamically filter the report by:
 
 Department
@@ -154,15 +155,18 @@ Age Group
 Income Bracket
 Every visualization updates automatically based on the selected filters.
 
-## Executive KPI Cards
+2.**Executive KPI Cards**
+
 The dashboard provides an immediate overview of workforce health using dynamic KPI cards.
 
-## Interactive Visualizations
+3.**Interactive Visualizations**
+
 Users can compare workforce metrics across multiple HR dimensions without writing queries or manually filtering spreadsheets.
 
 # Dashboard Visualizations
 
-## Employee Attrition Distribution
+1.**Employee Attrition Distribution**
+
 -A donut chart compares employees who stayed with those who left the organization.
 
 -The dashboard shows approximately 83.9% retained employees and 16.1% attrition.
@@ -173,15 +177,18 @@ Users can compare workforce metrics across multiple HR dimensions without writin
 
 The dashboard indicates that Research & Development has the largest workforce, followed by Sales and Human Resources.
 
-## Job Role Distribution
+2.**Job Role Distribution**
+
 Employees are categorized according to job roles, helping identify workforce concentration across organizational functions.
 The dashboard highlights Sales Executive, Research Scientist, and Laboratory Technician as the largest job groups.
 
-## Gender Distribution
+3.**Gender Distribution** 
+
 A pie chart displays the proportion of male and female employees within the organization.
 This visualization helps evaluate workforce diversity.
 
-## Business Travel Analysis
+4.**Business Travel Analysis**
+
 The dashboard compares employee attrition across:
 
 Travel Rarely
@@ -193,9 +200,11 @@ Non-Travel
 This analysis helps determine whether travel frequency influences employee turnover.
 
 # Data Preparation
+
 Prior to building the dashboard, the dataset was prepared using Microsoft Excel.
 
 The preparation process included:
+
 -Data cleaning
 
 -Duplicate validation
@@ -217,6 +226,7 @@ The cleaned dataset was then connected to Looker Studio.
 # Looker Studio Features Used
 
 This project demonstrates the practical use of several Looker Studio features, including:
+
 Interactive Scorecards
 
 -Bar Charts
@@ -240,6 +250,7 @@ Interactive Scorecards
 -Responsive Dashboard Layout
 
 # Business Insights
+
 The dashboard provides several actionable HR insights.
 
 Overall employee attrition remains relatively moderate but requires continuous monitoring.
@@ -257,6 +268,7 @@ Business travel frequency influences employee retention.
 Workforce composition varies considerably across departments and job roles.
 
 # Business Value
+
 The project was developed using:
 
 Looker Studio
