@@ -1,7 +1,4 @@
-# IBM HR Attrition Analysis Dashboard (2024)
-<p align="center">
-  <img src="Screenshot%20advance%20attrition%20analytics%20dashboard.png" alt="Advanced Employee Attrition Analytics Dashboard" width="1000"/>
-</p>
+# IBM HR Attrition Analysis Dashboard (2024) LOOKER STUDIO
 
 # Project Overview
 
