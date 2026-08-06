@@ -1,290 +1,59 @@
-# IBM HR Attrition Analysis Dashboard (2024) LOOKER STUDIO
+# IBM HR Attrition Analysis Dashboard (2024) LOOKER STUDIO PROJECT
 
-# Project Overview
+## Overview
 
-Employee attrition is one of the most significant challenges faced by modern organizations. High employee turnover not only increases recruitment and training costs but also affects productivity, employee morale, customer satisfaction, and long-term organizational growth. Understanding the factors that contribute to employee attrition enables HR professionals and business leaders to develop effective retention strategies and create a more engaged workforce.
+I am highly enthusiastic to present the **IBM HR Attrition Analysis Dashboard**, an advanced Microsoft Excel analytics project designed to transform raw employee data into actionable workforce intelligence. This project delivers an interactive reporting solution that provides deep insights into employee demographics, attrition trends, department-wise performance, salary distribution, business travel, and job satisfaction, enabling HR teams to make informed, data-driven workforce decisions.
 
-This project presents an interactive HR Attrition Dashboard developed using Looker Studio. The dashboard analyzes employee demographics, departmental distribution, job roles, travel frequency, compensation, job satisfaction, and other workforce characteristics to identify the major drivers of employee attrition.
+## Problem Statement
 
-The dashboard transforms raw HR data into interactive business intelligence, enabling decision-makers to explore workforce trends, monitor key HR metrics, and identify departments or employee groups with higher attrition risk.
+The primary objective was to develop a comprehensive HR monitoring solution for employee attrition analysis. Traditional HR reports make it difficult to identify the key drivers behind employee turnover across departments, age groups, salary brackets, and job roles. This project required the creation of an interactive dashboard that enables HR professionals to seamlessly analyze workforce metrics using dynamic filters while monitoring organizational performance and employee retention.
 
-# Business Problem
+## Analysis Done
 
-Organizations often possess large volumes of employee data but struggle to convert it into actionable insights. HR teams need a centralized reporting solution that allows them to answer critical workforce questions such as:
+> The file in which the analysis was done is **IBM HR Attrition Analysis Dashboard.xlsx**
 
--What is the organization's overall attrition rate?
+A structured data preparation and analytical approach was implemented to ensure accurate reporting and interactive visualizations. The core analytical phases included:
 
--Which departments experience the highest employee turnover?
+- **Data Preparation:** Cleaned, validated, and standardized employee records by handling missing values and preparing the dataset for analysis.
 
--Which job roles are most affected by attrition?
+- **Data Modeling:** Organized workforce data into a structured reporting model using Pivot Tables and calculated fields to support efficient analysis.
 
--Does business travel influence employee resignations?
+- **Employee Segmentation:** Categorized employees based on Department, Job Role, Gender, Business Travel, Age Group, Income Bracket, and Job Satisfaction to perform detailed workforce analysis.
 
--Which age groups are more likely to leave?
+- **HR KPI Development:** Developed key HR metrics including **Total Employees**, **Total Attrition Count**, **Average Employee Age**, and **Average Monthly Income** to evaluate workforce performance. :contentReference[oaicite:1]{index=1}
 
--Does employee income impact retention?
+- **Attrition Analysis:** Analyzed employee attrition across departments, job roles, business travel frequency, age groups, income levels, and job satisfaction to identify the primary factors contributing to employee turnover. :contentReference[oaicite:2]{index=2}
 
--Is job satisfaction associated with higher attrition?
+- **Interactive Reporting:** Built dynamic KPI cards, Pivot Charts, Pivot Tables, and slicers to provide flexible and interactive HR reporting.
 
--Are there differences in attrition between male and female employees?
+## Dashboard
 
--Without an analytical dashboard, identifying these patterns becomes difficult and time-consuming.
+The final deliverable consists of two highly interactive Microsoft Excel dashboards that leverage Pivot Tables, Pivot Charts, slicers, and dynamic filtering capabilities.
 
-This project addresses these challenges by providing an interactive HR analytics dashboard for strategic workforce planning.
+- **Dashboard 1: Workforce Overview Report:** Presents key HR KPIs including Total Employees, Total Attrition Count, Average Monthly Income, and Average Employee Age while providing employee distribution by Department, Job Role, Gender, Business Travel, and Overall Attrition. :contentReference[oaicite:3]{index=3}
 
-# Project Objectives
+- **Dashboard 2: Advanced Attrition Analysis Report:** Provides detailed insights into Attrition Rate by Department, Age Group, Income Bracket, and Job Satisfaction along with a Gender-wise Attrition comparison across departments. :contentReference[oaicite:4]{index=4}
 
-The primary objectives of this project are:
+- **Interactive Reporting:** Enables users to dynamically explore HR metrics using slicers for Department, Gender, Job Role, Age Group, Income Bracket, and Business Travel to perform detailed workforce analysis.
 
--Analyze overall workforce composition.
+## Recommendations
 
--Monitor employee attrition across departments.
+Drawing from the interactive exploration of the data, the following strategic actions are highly recommended to improve employee retention and workforce performance:
 
--Evaluate workforce demographics.
+- **Reduce Department Attrition:** Prioritize retention strategies for departments with higher attrition, particularly Sales and Human Resources.
 
--Identify high-risk employee segments.
+- **Improve Employee Engagement:** Strengthen employee development, recognition programs, and career growth opportunities to improve job satisfaction.
 
--Compare attrition by job role.
+- **Focus on High-Risk Employee Groups:** Design targeted retention initiatives for younger employees and lower-income groups who exhibit higher attrition rates.
 
--Study the relationship between job satisfaction and employee turnover.
+- **Optimize Workforce Planning:** Utilize dashboard insights to improve hiring strategies, succession planning, and workforce allocation across departments.
 
--Analyze the impact of income on employee retention.
+- **Monitor HR KPIs Regularly:** Continuously track attrition, employee demographics, and workforce trends through interactive dashboards to support proactive HR decision-making.
+tting
 
--Examine business travel patterns.
-
-Build an executive-level HR dashboard using Looker Studio.
-
-# About the Dataset
-
-The project uses the IBM HR Analytics Employee Attrition Dataset, one of the most widely used datasets for HR analytics and workforce analysis.
-
-The dataset contains detailed employee-level information covering demographic characteristics, job-related attributes, compensation, work environment, travel frequency, performance indicators, and attrition status.
-
-The data enables organizations to investigate multiple factors influencing employee retention and workforce stability.
-
-# Dataset Overview
-
-The dataset contains information related to:
-
--Employee Demographics
-
--Department
-
--Job Role
-
--Gender
-
--Age
-
--Monthly Income
-
--Education
-
--Job Satisfaction
-
--Environment Satisfaction
-
--Business Travel
-
--Marital Status
-
--Overtime
-
--Years at Company
-
--Years Since Last Promotion
-
--Years with Current Manager
-
--Work-Life Balance
-
--Attrition Status
-
-These variables provide a comprehensive view of employee characteristics and organizational behavior.
-
-# Executive Dashboard Summary
-
-The dashboard provides a high-level overview of the organization's workforce through key performance indicators and operational summaries.
-
-The dashboard reports:
-
-**Total Employees**: 1,470
-
-**Total Attrition Count**: 237
-
-**Average Monthly Income**: ₹6,503
-
-**Average Employee Age**: 36.92 years
-
-It also includes employee distribution by department, job role, gender, and business travel, along with the overall attrition split.
-
-# Key Performance Indicators
-The dashboard summarizes workforce performance using executive KPI cards.
-
-**Total Employees** : Displays the total number of employees included in the analysis.
-Value: 1,470
-
-**Total Attrition Count** : Represents the total number of employees who left the organization.
-Value: 237
-
-**Average Monthly Income** : Calculates the average monthly salary of employees.
-Value: ₹6,503
-
-**Average Employee Age** : Shows the average age of employees.
-Value: 36.92 Years
-
-These KPI values are shown on the dashboard overview.
-
-# Dashboard Features
-The dashboard provides several interactive reporting capabilities.
-
-1.**Interactive Filters**
-
-Users can dynamically filter the report by:
-
-Department
-
-Gender
-
-Overtime
-
-Job Role
-
-Age Group
-
-Income Bracket
-Every visualization updates automatically based on the selected filters.
-
-2.**Executive KPI Cards**
-
-The dashboard provides an immediate overview of workforce health using dynamic KPI cards.
-
-3.**Interactive Visualizations**
-
-Users can compare workforce metrics across multiple HR dimensions without writing queries or manually filtering spreadsheets.
-
-# Dashboard Visualizations
-
-1.**Employee Attrition Distribution**
-
--A donut chart compares employees who stayed with those who left the organization.
-
--The dashboard shows approximately 83.9% retained employees and 16.1% attrition.
-
--Department-wise Employee Distribution
-
--A column chart compares employee counts across departments.
-
-The dashboard indicates that Research & Development has the largest workforce, followed by Sales and Human Resources.
-
-2.**Job Role Distribution**
-
-Employees are categorized according to job roles, helping identify workforce concentration across organizational functions.
-The dashboard highlights Sales Executive, Research Scientist, and Laboratory Technician as the largest job groups.
-
-3.**Gender Distribution** 
-
-A pie chart displays the proportion of male and female employees within the organization.
-This visualization helps evaluate workforce diversity.
-
-4.**Business Travel Analysis**
-
-The dashboard compares employee attrition across:
-
-Travel Rarely
-
-Travel Frequently
-
-Non-Travel
-
-This analysis helps determine whether travel frequency influences employee turnover.
-
-# Data Preparation
-
-Prior to building the dashboard, the dataset was prepared using Microsoft Excel.
-
-The preparation process included:
-
--Data cleaning
-
--Duplicate validation
-
--Missing value verification
-
--Standardization of categorical fields
-
--Data formatting
-
--Creation of calculated fields
-
--Aggregation for dashboard metrics
-
--Validation of employee records
-
-The cleaned dataset was then connected to Looker Studio.
-
-# Looker Studio Features Used
-
-This project demonstrates the practical use of several Looker Studio features, including:
-
-Interactive Scorecards
-
--Bar Charts
-
--Column Charts
-
--Pie Charts
-
--Donut Charts
-
--Pivot Tables
-
--Drop-down Filters
-
--Calculated Fields
-
--Cross Filtering
-
--Dynamic Dashboard Controls
-
--Responsive Dashboard Layout
-
-# Business Insights
-
-The dashboard provides several actionable HR insights.
-
-Overall employee attrition remains relatively moderate but requires continuous monitoring.
-
-Sales department experiences the highest employee turnover.
-
-Younger employees demonstrate significantly higher attrition.
-
-Employees in lower salary brackets show reduced retention.
-
-Job satisfaction has a strong relationship with employee turnover.
-
-Business travel frequency influences employee retention.
-
-Workforce composition varies considerably across departments and job roles.
-
-# Business Value
-
-The project was developed using:
-
-Looker Studio
-
-Microsoft Excel
-
-Data Visualization
-
-Interactive Filters
-
-Calculated Metrics
-
-Business Analytics
-
-# Conclusion
+## Conclusion
 The IBM HR Attrition Analysis Dashboard demonstrates how Looker Studio can convert employee data into meaningful business intelligence. By integrating workforce demographics, attrition trends, departmental analysis, compensation insights, job satisfaction metrics, and business travel patterns into a single interactive reporting solution, the dashboard enables HR professionals to identify retention challenges and make informed workforce decisions. This project highlights practical skills in HR analytics, data visualization, dashboard development, and business storytelling, making it a valuable portfolio project for Business Intelligence, HR Analytics, and Data Analytics roles.
 
-## AUTHOR
-## AARZU BHARTI
+## Author
+Aarzu Bharti
+
