@@ -20,7 +20,7 @@ A structured data preparation and analytical approach was implemented to ensure 
 
 - **Employee Segmentation:** Categorized employees based on Department, Job Role, Gender, Business Travel, Age Group, Income Bracket, and Job Satisfaction to perform detailed workforce analysis.
 
-- **HR KPI Development:** Developed key HR metrics including **Total Employees**, **Total Attrition Count**, **Average Employee Age**, and **Average Monthly Income** to evaluate workforce performance. :contentReference[oaicite:1]{index=1}
+- **HR KPI Development:** Developed key HR metrics including **Total Employees**, **Total Attrition Count**, **Average Employee Age**, and **Average Monthly Income** to evaluate workforce performance.
 
 - **Attrition Analysis:** Analyzed employee attrition across departments, job roles, business travel frequency, age groups, income levels, and job satisfaction to identify the primary factors contributing to employee turnover. :contentReference[oaicite:2]{index=2}
 
